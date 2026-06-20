@@ -89,7 +89,7 @@ Build the project with:
 gradle build
 ```
 
-### Please note that The project is currently configured for Linux natives (natives-linux)
+### Please note that the project is currently configured for Linux natives (natives-linux)
 
 
 ## Running
@@ -139,7 +139,7 @@ GLz is still early in development. APIs, controls, rendering behavior, asset for
 
 ## Notes
 
-GLz currently uses immediate mode OpenGL. It will always will. If you have an issue then fork GLz.
+GLz currently uses immediate mode OpenGL. It always will. If you have an issue with that, fork GLz.
 
 Collision detection is currently basic and uses object-scale AABBs rather than accurate mesh collision. Please note that collision will probably change.
 
