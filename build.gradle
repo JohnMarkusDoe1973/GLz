@@ -48,7 +48,7 @@ jar {
         )
     }
 }
-betterJar {
+shadowJar {
     archiveBaseName.set('GLz')
     archiveClassifier.set('')
     archiveVersion.set('')
