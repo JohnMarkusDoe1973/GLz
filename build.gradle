@@ -39,3 +39,11 @@ sourceSets {
 application {
     mainClass = "com.buggy.GLz.Game"
 }
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': application.mainClass.get()
+        )
+    }
+}
